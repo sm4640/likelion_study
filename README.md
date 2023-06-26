@@ -135,10 +135,10 @@ _이동원 강사님 자료_: https://github.com/3chamchi/project-lion-backend-d
         - 자식 html에서 {% block title %}제목{% endblock %}, {% block content %}내용(보통 태그들){% endblock %} 식으로 입력해주면 된다.
     -   static: 서비스를 제공해주는 측(서버)에서 제공하는 이미지, css 등을 담는 폴더
         - settings.py에서 STATIC_URL 밑에 STATICFILES_DIRS = [BASE_DIR / 'static'] 입력
-        - static 폴더에서 불러오고 싶으면 {% load static %}을 html 위에 쓰고 <link> 안에 href="{% static 'css/~' %}" or <img> 안에 src="{% static 'image/~' %}" 로 쓰면 됨
+        - static 폴더에서 불러오고 싶으면 {% load static %}을 html 위에 쓰고 link태그 안에 href="{% static 'css/~' %}" or img태그 안에 src="{% static 'image/~' %}" 로 쓰면 됨
         - 주의: 상속 받았다고 {% load static %}이 자식 html에도 전달되는 것은 아님. 자식 html에도 {% extends 'base.html' %} 밑에 {% load static %} 적어줘야 함
     -   template을 작성할 때 아직 데베에서 정보를 받아오지 않는다고 하면 그 정보에 해당하는 부분을 약식으로 확인해볼 필요가 있음
-        - 이때 쓸 수 있는 것이 "http://via.placeholder.com/32x32"인데 <img> 태그 src 안에 넣으면 제대로 나오는지 확인해볼 수 있도록 무료로 회색배경 사진을 제공해줌
+        - 이때 쓸 수 있는 것이 "http://via.placeholder.com/32x32"인데 img태그 src 안에 넣으면 제대로 나오는지 확인해볼 수 있도록 무료로 회색배경 사진을 제공해줌
         - <img src="http://via.placeholder.com/32x32" alt="이미지"> <- 이렇게 나옴
     -   template 필터
         - include -> templates 폴더 안에 반복되는 html을 넣을 폴더 하나를 만든 후 {% include '경로' %}를 부모 html에 넣으면 이 부분만 가져올 수 있다.
