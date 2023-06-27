@@ -73,8 +73,9 @@ _이동원 강사님 자료_: https://github.com/3chamchi/project-lion-backend-d
 4.  pip install --upgrade pip -> pip 업데이트
 5.  pip install django -> 장고 설치
 6.  django-admin startproject [장고 프로젝트명] [위치|생략 가능] -> 프로젝트 생성 ex)django-admin startproject config . 권장
-7.  django-admin startapp [앱이름(복수형으로)] -> 어떠한 것에 관련된 기능을 수행하는 앱 생성 (여기서 앱이란 부품 같은 거다.)
-8.  config에 settings.py 에 들어가서 installed_apps 리스트 안에 새로 만든 앱이름 **"콤마 붙여서"** 넣기
+   - 폴더 안에서 프로젝트를 하나만 할거면 config .으로 해도 상관없지만 폴더 안에서 여러개 프로젝트를 진행할거면 startproject 플젝명 으로 해주기
+8.  django-admin startapp [앱이름(복수형으로)] -> 어떠한 것에 관련된 기능을 수행하는 앱 생성 (여기서 앱이란 부품 같은 거다.)
+9.  config에 settings.py 에 들어가서 installed_apps 리스트 안에 새로 만든 앱이름 **"콤마 붙여서"** 넣기
 
 ## 4주차 강의 복습 (DB 와 ORM)
 
