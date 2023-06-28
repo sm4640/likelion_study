@@ -23,5 +23,5 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('basic_lotto/', views.basic_lotto_page, name="basic-lotto-page"),
     path('challenge_lotto/', views.challenge_lotto_input, name='challenge-lotto-page'),
-    path('challenge_lotto/result', views.challenge_lotto_output, name='result')
+    path('challenge_lotto/result/', views.challenge_lotto_output, name='result')
 ]
