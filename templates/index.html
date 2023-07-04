@@ -1,9 +1,10 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block title %}인덱스{% endblock %}
 {% block content%}
-<h1>인덱스 화면</h1>
-<ul>
-    <li><a href="{% url 'posts:post-list' %}">게시글 목록</a></li>
-    <li><a href="{% url 'posts:post-create' %}">글 작성</a></li>
-</ul>
+<main>
+    <div class="card-list">
+        {% include 'mixin/posts/post_card.html' %}
+    </div>
+</main>
 {% endblock %}
