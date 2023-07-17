@@ -155,3 +155,8 @@ _이동원 강사님 자료_: https://github.com/3chamchi/project-lion-backend-d
   - 데이터 유효성: 클라이언트가 입력한 데이터가 유효한지 검증(나이, 전화번호, 파일)
 - READ
   - 
+
+## 8주차 강의 복습
+
+form 유효성 검사 커스터마이징 : https://docs.djangoproject.com/en/4.2/ref/forms/validation/
+auth 사용자 커스터마이징 : https://docs.djangoproject.com/en/4.2/topics/auth/customizing/
