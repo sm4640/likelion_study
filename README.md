@@ -160,3 +160,4 @@ _이동원 강사님 자료_: https://github.com/3chamchi/project-lion-backend-d
 
 form 유효성 검사 커스터마이징 : https://docs.djangoproject.com/en/4.2/ref/forms/validation/  
 auth 사용자 커스터마이징 : https://docs.djangoproject.com/en/4.2/topics/auth/customizing/
+auth 인증 : https://docs.djangoproject.com/en/4.2/topics/auth/default/  
